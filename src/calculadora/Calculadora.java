@@ -46,4 +46,8 @@ public class Calculadora {
     System.out.println("El resultado de la división es: " + (this.op1 / this.op2));
   }
 
+  public void modulo() {
+    System.out.println("El resultado del módulo es: " + (this.op1 % this.op2));
+  }
+
 }
