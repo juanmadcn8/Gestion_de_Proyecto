@@ -38,4 +38,8 @@ public class Calculadora {
     System.out.println("El resultado de la resta es: " + (this.op1 - this.op2));
   }
 
+  public void multiplica() {
+    System.out.println("El resultado de la multiplicación es: " + (this.op1 * this.op2));
+  }
+
 }
