@@ -42,4 +42,8 @@ public class Calculadora {
     System.out.println("El resultado de la multiplicación es: " + (this.op1 * this.op2));
   }
 
+  public void divi() {
+    System.out.println("El resultado de la división es: " + (this.op1 / this.op2));
+  }
+
 }
